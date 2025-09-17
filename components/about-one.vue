@@ -45,8 +45,8 @@
 
 <script setup>
 import { ref, defineProps } from 'vue';
-import about1 from '@/assets/images/course/1.png'
-import about2 from '@/assets/images/course/2.png'
+import about1 from '@/assets/images/course/1.jpg'
+import about2 from '@/assets/images/course/2.jpg'
 
 defineProps({
     title: Boolean

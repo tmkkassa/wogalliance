@@ -5,8 +5,7 @@
         <div class="container-fluid relative mt-20">
             <div class="grid grid-cols-1">
                 <div class="w-full leading-[0] border-0">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin"
+                    <iframe src="https://www.google.com/maps?q=Washington,+DC+metropolitan+area&output=embed"
                         style="border:0" class="w-full h-[500px]" allowfullscreen></iframe>
                 </div>
             </div>
@@ -80,9 +79,8 @@
                                 benefit</p>
 
                             <div class="mt-4">
-                                <a href="tel:+152534-468-854"
-                                    class="btn btn-link text-primary hover:text-primary after:bg-primary transition duration-500">+152
-                                    534-468-854</a>
+                                <a href="tel:+12408148335"
+                                    class="btn btn-link text-primary hover:text-primary after:bg-primary transition duration-500">+1 (240) 814‑8335</a>
                             </div>
                         </div>
                     </div>
@@ -99,8 +97,8 @@
                                 benefit</p>
 
                             <div class="mt-4">
-                                <a href="mailto:contact@example.com"
-                                    class="btn btn-link text-primary hover:text-primary after:bg-primary transition duration-500">contact@example.com</a>
+                                <a href="mailto:contact@wogalliance.com"
+                                    class="btn btn-link text-primary hover:text-primary after:bg-primary transition duration-500">contact@wogalliance.com</a>
                             </div>
                         </div>
                     </div>
@@ -113,7 +111,7 @@
 
                         <div class="content mt-4">
                             <h5 class="text-lg font-semibold">Location</h5>
-                            <p class="text-slate-400 mt-3">C/54 Northwest Freeway, Suite 558, <br> Houston, USA 485</p>
+                            <p class="text-slate-400 mt-3">DMV</p>
 
                             <div class="mt-4">
                                 <NuxtLink :to="[]" data-type="iframe" @click="toggle"
@@ -129,7 +127,7 @@
 
         <ScrollToTop />
 
-        <Switcher />
+        <!-- <Switcher /> -->
 
         <div class="fixed w-full h-[100vh] top-0 left-0 z-999" :class="open ? '' : 'hidden'"
             style="background-color: rgba(0, 0, 0, 0.5);">
@@ -140,7 +138,7 @@
                     <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
                         <div class="flex justify-between items-start p-0">
                             <iframe width="750" height="400"
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin"></iframe>
+                                src="https://www.google.com/maps?q=Washington,+DC+metropolitan+area&output=embed"></iframe>
                         </div>
                     </div>
                 </div>

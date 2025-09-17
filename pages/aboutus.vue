@@ -116,11 +116,11 @@
             </div>
         </section>
 
-        <!-- What We Do Section -->
+        <!--Objectives Section -->
         <section class="relative lg:py-24 py-16 bg-gray-50 dark:bg-slate-900">
             <div class="container relative">
                 <div class="text-center mb-16">
-                    <h2 class="text-4xl font-bold text-gray-900 dark:text-white mb-6">What We Do</h2>
+                    <h2 class="text-4xl font-bold text-gray-900 dark:text-white mb-6">Objectives</h2>
                     <p class="text-xl text-gray-600 dark:text-gray-300 max-w-4xl mx-auto">
                         WoGA is registered as a non-profit, non-governmental alliance of individuals committed to
                         fostering solidarity, mutual assistance, and strong social bonds among our community members.
@@ -236,6 +236,113 @@
             </div>
         </section>
 
+        <!-- What We Do Section -->
+        <section class="relative lg:py-24 py-16">
+            <div class="container relative">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-gray-900 dark:text-white mb-6">What We Do</h2>
+                    <p class="text-xl text-gray-600 dark:text-gray-300 max-w-4xl mx-auto">
+                        Our comprehensive approach to addressing community needs and promoting social justice through
+                        various initiatives and programs.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- What We Do Card 1 -->
+                    <div
+                        class="group p-6 rounded-xl bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 hover:shadow-lg transition-all duration-300 hover:-translate-y-2">
+                        <div
+                            class="w-14 h-14 bg-gradient-to-r from-primary to-blue-400 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300 shadow-md">
+                            <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">Policy Recommendation</h3>
+                        <p class="text-gray-600 dark:text-gray-300">
+                            We develop and advocate for evidence-based policy recommendations that address community
+                            needs and promote social justice.
+                        </p>
+                    </div>
+
+                    <!-- What We Do Card 2 -->
+                    <div
+                        class="group p-6 rounded-xl bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 hover:shadow-lg transition-all duration-300 hover:-translate-y-2">
+                        <div
+                            class="w-14 h-14 bg-gradient-to-r from-blue-400 to-primary rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300 shadow-md">
+                            <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">Emerging Injustice</h3>
+                        <p class="text-gray-600 dark:text-gray-300">
+                            We identify, document, and respond to emerging injustices within our communities and
+                            advocate for systemic change.
+                        </p>
+                    </div>
+
+                    <!-- What We Do Card 3 -->
+                    <div
+                        class="group p-6 rounded-xl bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 hover:shadow-lg transition-all duration-300 hover:-translate-y-2">
+                        <div
+                            class="w-14 h-14 bg-gradient-to-r from-primary to-blue-400 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300 shadow-md">
+                            <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">Research Findings and
+                            Further Directions</h3>
+                        <p class="text-gray-600 dark:text-gray-300">
+                            We conduct research to understand community challenges and develop evidence-based solutions
+                            for sustainable impact.
+                        </p>
+                    </div>
+
+                    <!-- What We Do Card 4 -->
+                    <div
+                        class="group p-6 rounded-xl bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 hover:shadow-lg transition-all duration-300 hover:-translate-y-2">
+                        <div
+                            class="w-14 h-14 bg-gradient-to-r from-blue-400 to-primary rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300 shadow-md">
+                            <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">Ongoing Projects</h3>
+                        <p class="text-gray-600 dark:text-gray-300">
+                            We implement and manage various ongoing projects that directly benefit our community members
+                            and address their needs.
+                        </p>
+                    </div>
+
+                    <!-- What We Do Card 5 -->
+                    <div
+                        class="group p-6 rounded-xl bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 hover:shadow-lg transition-all duration-300 hover:-translate-y-2">
+                        <div
+                            class="w-14 h-14 bg-gradient-to-r from-primary to-blue-400 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300 shadow-md">
+                            <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">Incident of Humanitarian
+                            Crisis</h3>
+                        <p class="text-gray-600 dark:text-gray-300">
+                            We respond to humanitarian crises by providing immediate assistance and long-term support to
+                            affected community members.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Call to Action Section -->
         <section class="relative lg:py-24 py-16">
             <div class="container relative">
@@ -303,5 +410,5 @@
 </template>
 
 <script setup>
-import bg from '@/assets/images/bg/3.jpg'
+import bg from '@/assets/images/gallery/view2.jpeg'
 </script>

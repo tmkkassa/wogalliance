@@ -14,8 +14,8 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'Edupath - Nuxt Js Online Courses & Education Template',
-      titleTemplate: 'Edupath - Nuxt Js Online Courses & Education Template',
+      title: 'WoGA - Wolaita Global Alliance',
+      titleTemplate: 'WoGA - Wolaita Global Alliance',
       htmlAttrs: {class:"light scroll-smooth", dir: 'ltr', lang: 'en'},
       bodyAttrs: {
         class: 'light dark:bg-slate-900',

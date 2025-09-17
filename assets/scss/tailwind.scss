@@ -9,23 +9,23 @@
 
 
 
-// FONTS
-@use "custom/fonts";
+// // FONTS
+// @use "custom/fonts";
 
-// general
-@use "custom/general";
+// // general
+// @use "custom/general";
 
-// structure
+// // structure
 @use "custom/structure/topnav";
-@use "custom/structure/footer";
+// @use "custom/structure/footer";
 
-// pages
-@use "custom/pages/helper";
-@use "custom/pages/hero";
-@use "custom/pages/testi";
-@use "custom/pages/countdown";
-@use "custom/pages/swiper-slider";
-@use "custom/pages/contact";
+// // pages
+// @use "custom/pages/helper";
+// @use "custom/pages/hero";
+// @use "custom/pages/testi";
+// @use "custom/pages/countdown";
+// @use "custom/pages/swiper-slider";
+// @use "custom/pages/contact";
 
 @tailwind base;
 @tailwind components;

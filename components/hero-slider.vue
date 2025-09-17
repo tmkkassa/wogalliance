@@ -4,8 +4,9 @@
             <!-- SLIDE 1 -->
             <swiper-slide class="swiper-slide flex items-center overflow-hidden">
                 <div class="slide-inner absolute start-0 top-0 w-full h-full flex items-center overflow-hidden">
-                    <!-- Dynamic Blue Gradient Background -->
-                    <div class="absolute inset-0 bg-gradient-to-br from-blue-900 via-primary to-blue-700"></div>
+                    <!-- Image Background -->
+                    <div class="absolute inset-0 bg-center bg-cover bg-no-repeat"
+                        :style="{ backgroundImage: `url(${heroBg1})` }"></div>
 
 
                     <!-- Overlay for text readability -->
@@ -47,8 +48,9 @@
             <!-- SLIDE 2 -->
             <swiper-slide class="swiper-slide flex items-center overflow-hidden">
                 <div class="slide-inner absolute start-0 top-0 w-full h-full flex items-center overflow-hidden">
-                    <!-- Radial Blue Gradient Background -->
-                    <div class="absolute inset-0 bg-gradient-radial from-primary via-blue-700 to-blue-900"></div>
+                    <!-- Image Background -->
+                    <div class="absolute inset-0 bg-center bg-cover bg-no-repeat"
+                        :style="{ backgroundImage: `url(${heroBg2})` }"></div>
 
 
                     <!-- Overlay for text readability -->
@@ -59,7 +61,7 @@
                             <div class="text-center">
                                 <h1
                                     class="font-bold text-white lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5">
-                                    A Voice for Community, <br> A Force for Change
+                                    A Voice for Community, <br> a Force for Change
                                 </h1>
                                 <p class="text-white/70 text-lg max-w-xl mx-auto">
                                     We unite Wolayta immigrants and allies worldwide to promote integration, cultural
@@ -90,8 +92,9 @@
             <!-- SLIDE 3 -->
             <swiper-slide class="swiper-slide flex items-center overflow-hidden">
                 <div class="slide-inner absolute start-0 top-0 w-full h-full flex items-center overflow-hidden">
-                    <!-- Blue Aurora Gradient Background -->
-                    <div class="absolute inset-0 bg-gradient-to-br from-blue-800 via-primary to-blue-600"></div>
+                    <!-- Image Background -->
+                    <div class="absolute inset-0 bg-center bg-cover bg-no-repeat"
+                        :style="{ backgroundImage: `url(${heroBg3})` }"></div>
 
 
                     <!-- Overlay for text readability -->
@@ -136,4 +139,8 @@
 <script setup>
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import { Autoplay } from 'swiper/modules';
+
+import heroBg3 from '@/assets/images/gallery/ajora1.jpeg'
+import heroBg2 from '@/assets/images/gallery/ajora3.jpeg'
+import heroBg1 from '@/assets/images/gallery/view3.jpeg'
 </script>

@@ -237,5 +237,5 @@
 </template>
 
 <script setup>
-import bg from '@/assets/images/bg/3.jpg'
+import bg from '@/assets/images/gifata3.jpeg'
 </script>

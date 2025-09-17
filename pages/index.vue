@@ -89,7 +89,7 @@
 
         <ScrollToTop />
 
-        <Switcher />
+        <!-- <Switcher /> -->
     </div>
 </template>
 

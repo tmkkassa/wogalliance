@@ -15,16 +15,15 @@
                                 <div class="flex mt-6">
                                     <i class="iconoir-map-pin align-middle text-2xl text-primary me-2"></i>
                                     <div class="">
-                                        <h6 class="text-gray-300">C/54 Northwest Freeway, <br> Houston, USA 485</h6>
+                                        <h6 class="text-gray-300">DMV</h6>
                                     </div>
                                 </div>
 
                                 <div class="flex mt-4">
                                     <i class="iconoir-phone align-middle text-2xl text-primary me-2"></i>
                                     <div class="">
-                                        <a href="tel:+152534-468-854"
-                                            class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out">+152
-                                            534-468-854</a>
+                                        <a href="tel:+12408148335"
+                                            class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out">+1 (240) 814‑8335</a>
                                     </div>
                                 </div>
                             </div>
@@ -35,8 +34,9 @@
                                 <ul class="list-none footer-list mt-6">
                                     <li v-for="(item, index) in footerLink1" :key="index" class="mt-[10px] frist:mt-0">
                                         <i class="iconoir-nav-arrow-right text-gray-400 align-middle me-1"></i>
-                                        <NuxtLink :to="[]"
-                                            class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out">{{ item
+                                        <NuxtLink :to="item.lnk"
+                                            class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out">{{
+                                                item.name
                                             }}
                                         </NuxtLink>
                                     </li>
@@ -49,8 +49,9 @@
                                 <ul class="list-none footer-list mt-6">
                                     <li v-for="(item, index) in footerLink2" :key="index" class="mt-[10px] frist:mt-0">
                                         <i class="iconoir-nav-arrow-right text-gray-400 align-middle me-1"></i>
-                                        <NuxtLink :to="[]"
-                                            class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out">{{ item
+                                        <NuxtLink :to="item.lnk"
+                                            class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out">{{
+                                                item.name
                                             }}
                                         </NuxtLink>
                                     </li>
@@ -60,16 +61,16 @@
                             <div class="lg:col-span-4 md:col-span-6">
                                 <h5 class="tracking-[1px] text-gray-100 font-semibold text-lg">Get In Touch</h5>
 
-                                <div class="mt-6">
+                                <!-- <div class="mt-6">
                                     <NuxtLink :to="[]"><img :src="app" class="h-12 inline-block mb-1 " alt="" />
                                     </NuxtLink>
                                     <NuxtLink :to="[]"><img :src="play" class="h-12 inline-block mb-1" alt="" />
                                     </NuxtLink>
-                                </div>
+                                </div> -->
 
                                 <ul class="list-none mt-4">
                                     <li v-for="(item, index) in footerSocial" :key="index" class="inline mx-[2px]"><a
-                                            :href="item.link" target="_blank"
+                                            :href="item.lnk" target="_blank"
                                             class="size-7 inline-flex justify-center items-center text-gray-400 hover:text-white border border-gray-800 dark:border-gray-700 rounded-md hover:border-primary dark:hover:border-primary hover:bg-primary dark:hover:bg-primary"><i
                                                 :class="item.icon"></i></a></li>
                                 </ul>

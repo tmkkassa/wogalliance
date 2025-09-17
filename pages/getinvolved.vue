@@ -31,7 +31,7 @@
                     <div class="lg:order-2">
                         <div class="relative">
                             <div class="relative z-10">
-                                <img :src="bg" class="rounded-lg shadow-2xl" alt="Community Involvement">
+                                <img :src="bg2" class="rounded-lg shadow-2xl" alt="Community Involvement">
                             </div>
                             <div
                                 class="absolute -bottom-6 -left-6 w-24 h-24 bg-gradient-to-r from-primary to-blue-400 rounded-full opacity-20">
@@ -223,7 +223,8 @@
 </template>
 
 <script setup>
-import bg from '@/assets/images/bg/2.jpg'
+import bg from '@/assets/images/gallery/city4.jpeg'
+import bg2 from '@/assets/images/bg/2.jpg'
 
 definePageMeta({
     title: 'Get Involved - Join Our Mission',

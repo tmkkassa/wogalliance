@@ -32,6 +32,68 @@
             <div id="navigation" :class="toggle ? 'block' : 'none'">
                 <ul class="navigation-menu justify-start" :class="navlight ? 'nav-light' : ''">
 
+                    <!-- <li class="has-submenu parent-parent-menu-item"
+                        :class="['/grid', '/grid-sidebar', '/list', '/list-sidebar', '/youtube-listing', '/video-listing', '/course-detail', '/course-detail-two'].includes(current) ? 'active' : ''">
+                        <NuxtLink :to="[]" @click="submenu(openMenu === '/courses-item' ? '' : '/courses-item')">Courses
+                        </NuxtLink><span class="menu-arrow"></span>
+                        <ul class="submenu"
+                            :class="['/courses-item', '/grid-item', '/list-item', '/video-item', '/detail-item'].includes(openMenu) ? 'open' : ''">
+                            <li class="has-submenu parent-menu-item"
+                                :class="['/grid', '/grid-sidebar'].includes(current) ? 'active' : ''">
+                                <NuxtLink :to="[]" @click="submenu(openMenu === '/grid-item' ? '' : '/grid-item')"> Grid
+                                    Courses </NuxtLink><span class="submenu-arrow"></span>
+                                <ul class="submenu" :class="['/grid-item'].includes(openMenu) ? 'open' : ''">
+                                    <li :class="current === '/grid' ? 'active' : ''">
+                                        <NuxtLink to="/grid" class="sub-menu-item">Grid Listing</NuxtLink>
+                                    </li>
+                                    <li :class="current === '/grid-sidebar' ? 'active' : ''">
+                                        <NuxtLink to="/grid-sidebar" class="sub-menu-item">Grid Sidebar </NuxtLink>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu parent-menu-item"
+                                :class="['/list', '/list-sidebar'].includes(current) ? 'active' : ''">
+                                <NuxtLink :to="[]" @click="submenu(openMenu === '/list-item' ? '' : '/list-item')"> List
+                                    Courses </NuxtLink><span class="submenu-arrow"></span>
+                                <ul class="submenu" :class="['/list-item'].includes(openMenu) ? 'open' : ''">
+                                    <li :class="current === '/list' ? 'active' : ''">
+                                        <NuxtLink to="/list" class="sub-menu-item">List Listing</NuxtLink>
+                                    </li>
+                                    <li :class="current === '/list-sidebar' ? 'active' : ''">
+                                        <NuxtLink to="/list-sidebar" class="sub-menu-item">List Sidebar </NuxtLink>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu parent-menu-item"
+                                :class="['/youtube-listing', '/video-listing'].includes(current) ? 'active' : ''">
+                                <NuxtLink :to="[]" @click="submenu(openMenu === '/video-item' ? '' : '/video-item')">
+                                    Video Courses </NuxtLink><span class="submenu-arrow"></span>
+                                <ul class="submenu" :class="['/video-item'].includes(openMenu) ? 'open' : ''">
+                                    <li :class="current === '/youtube-listing' ? 'active' : ''">
+                                        <NuxtLink to="/youtube-listing" class="sub-menu-item">Youtube Listing</NuxtLink>
+                                    </li>
+                                    <li :class="current === '/video-listing' ? 'active' : ''">
+                                        <NuxtLink to="/video-listing" class="sub-menu-item">Video Listing</NuxtLink>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu parent-menu-item"
+                                :class="['/course-detail', '/course-detail-two'].includes(current) ? 'active' : ''">
+                                <NuxtLink :to="[]" @click="submenu(openMenu === '/detail-item' ? '' : '/detail-item')">
+                                    Courses Detail</NuxtLink><span class="submenu-arrow"></span>
+                                <ul class="submenu" :class="['/detail-item'].includes(openMenu) ? 'open' : ''">
+                                    <li :class="current === '/course-detail' ? 'active' : ''">
+                                        <NuxtLink to="/course-detail" class="sub-menu-item">Courses Detail</NuxtLink>
+                                    </li>
+                                    <li :class="current === '/course-detail-two' ? 'active' : ''">
+                                        <NuxtLink to="/course-detail-two" class="sub-menu-item">Courses Detail Two
+                                        </NuxtLink>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li> -->
+
                     <li :class="current === '/' ? 'active' : ''">
                         <NuxtLink to="/" class="sub-menu-item">Home</NuxtLink>
                     </li>
@@ -49,6 +111,13 @@
                     <li :class="current === '/contactus' ? 'active' : ''">
                         <NuxtLink to="/contactus" class="sub-menu-item">Contact Us</NuxtLink>
                     </li>
+                    <li :class="current === '/news_and_events' ? 'active' : ''">
+                        <NuxtLink to="/news_and_events" class="sub-menu-item">News & Events</NuxtLink>
+                    </li>
+                    <li :class="current === '/gallery' ? 'active' : ''">
+                        <NuxtLink to="/gallery" class="sub-menu-item">Gallery</NuxtLink>
+                    </li>
+
                 </ul>
             </div>
         </div>

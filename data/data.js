@@ -17,6 +17,37 @@ import course9 from "@/assets/images/course/9.jpg";
 import course10 from "@/assets/images/course/10.jpg";
 import course11 from "@/assets/images/course/11.jpg";
 import course12 from "@/assets/images/course/12.jpg";
+import wolaita_dicha from "@/assets/images/news_and_events/wolaita_dicha.jpg";
+import gifata3 from "@/assets/images/gifata3.jpeg";
+
+// Gallery Images
+import ajora1 from "@/assets/images/gallery/ajora1.jpeg";
+import ajora2 from "@/assets/images/gallery/ajora2.jpeg";
+import ajora3 from "@/assets/images/gallery/ajora3.jpeg";
+import city1 from "@/assets/images/gallery/city1.jpeg";
+import city2 from "@/assets/images/gallery/city2.jpeg";
+import city3 from "@/assets/images/gallery/city3.jpeg";
+import city4 from "@/assets/images/gallery/city4.jpeg";
+import city5 from "@/assets/images/gallery/city5.jpeg";
+import cloth1 from "@/assets/images/gallery/cloth1.jpeg";
+import cloth2 from "@/assets/images/gallery/cloth2.jpeg";
+import cloth3 from "@/assets/images/gallery/cloth3.jpeg";
+import cloth4 from "@/assets/images/gallery/cloth4.jpeg";
+import cloth5 from "@/assets/images/gallery/cloth5.jpeg";
+import dicah3 from "@/assets/images/gallery/dicah3.jpeg";
+import dicha1 from "@/assets/images/gallery/dicha1.jpeg";
+import dicha2 from "@/assets/images/gallery/dicha2.jpeg";
+import dicha4 from "@/assets/images/gallery/dicha4.jpeg";
+import hayk1 from "@/assets/images/gallery/hayk1.jpeg";
+import hayk2 from "@/assets/images/gallery/hayk2.jpeg";
+import hayk3 from "@/assets/images/gallery/hayk3.jpeg";
+import mochena1 from "@/assets/images/gallery/mochena1.jpeg";
+import museum1 from "@/assets/images/gallery/museum1.jpeg";
+import museum2 from "@/assets/images/gallery/museum2.jpeg";
+import view1 from "@/assets/images/gallery/view1.jpeg";
+import view2 from "@/assets/images/gallery/view2.jpeg";
+import view3 from "@/assets/images/gallery/view3.jpeg";
+import view4 from "@/assets/images/gallery/view4.jpeg";
 
 import team1 from "@/assets/images/team/1.jpg";
 import team2 from "@/assets/images/team/2.jpg";
@@ -347,41 +378,31 @@ export const blogData = [
 
 export const footerSocial = [
   {
-    link: "http://linkedin.com/company/woga",
-    icon: "iconoir-linkedin",
+    name: "YouTube",
+    lnk: "https://www.youtube.com/@wogalliance",
+    icon: "iconoir-youtube",
   },
   {
-    link: "https://www.facebook.com/woga",
+    name: "Facebook",
+    lnk: "https://www.facebook.com/profile.php?id=61580960904683&rdid=CjwmtYLISnj5a8YZ&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F14HefnbZas4%2F#",
     icon: "iconoir-facebook",
-  },
-  {
-    link: "https://www.instagram.com/woga",
-    icon: "iconoir-instagram",
-  },
-  {
-    link: "https://twitter.com/woga",
-    icon: "iconoir-x",
-  },
-  {
-    link: "mailto:support@woga.in",
-    icon: "iconoir-mail",
   },
 ];
 
 export const footerLink1 = [
-  "About Us",
-  "Mission & Vision",
-  "Get Involved",
-  "News & Stories",
-  "Donate",
+  { name: "About Us", lnk: "/aboutus" },
+  { name: "Mission & Vision", lnk: "/aboutus" },
+  { name: "Get Involved", lnk: "/getinvolved" },
+  { name: "News & Stories", lnk: "/news_and_events" },
+  // { name: "Donate", lnk: "/donate" },
 ];
 
 export const footerLink2 = [
-  "Contact Us",
-  "Where We Work",
-  "Programs & Services",
-  "Events",
-  "Resources",
+  { name: "Contact Us", lnk: "/contactus" },
+  { name: "Where We Work", lnk: "/where" },
+  // { name: "Programs & Services", lnk: "/programs" },
+  { name: "Events", lnk: "/news_and_events" },
+  // { name: "Resources", lnk: "#" },
 ];
 
 export const categories = [
@@ -811,4 +832,376 @@ export const socialData = [
   "github",
   "youtube",
   "gitlab",
+];
+
+// News and Events Data
+export const newsData = [
+  {
+    id: 1,
+    image: wolaita_dicha,
+    tag: "Community",
+    date: "15th Sep 2025",
+    title: "የወላይታ ድቻ እግር ኳስ ክለብ መግለጫ",
+    excerpt: "የወላይታ ድቻ ክለብ ከአስቸኳይ የቦርድ ስብሰባ በኋላ ባለ አምስት ነጥብ መግለጫ አውጥቷል።",
+    content: `የወላይታ ድቻ እግር ኳስ ክለብ ካደረገው አስቸኳይ የቦርድ ስብሰባ በኋላ ባለ አምስት ነጥብ መግለጫ አውጥቷል።
+
+በኢትዮጵያ ዋንጫ ቡድኑን ለመደገፍ ከወላይታ ወደ አዲስ አበባ በለሊት የተጓዙ ደጋፊዎች ወደ ስታዲየም ባለመግባታቸው ቦርዱ ይቅርታ ጠይቋል።
+
+በተጨማሪም ቡድኑ ከሲዳማ ቡና ጋር በገለልተኛ ሜዳ በአዲስ አበባ ለመጫወት ለፌዴሬሽኑ ጥያቄ አቅርቦ ጥያቄው ተቀባይነት አግኝቶ  ውድድሩ ሊደረግ ቀን ተቆርጦለት እና ባልተጠበቀ ሁኔታ በዕለቱ ጨዋታው በዝግ እንዲካሄድ በመጨረሻ ሰዓት በተላለፈ ውሳኔ መሰረት በክለቡ ደጋፊዎች ላይ የደረሰውን እንግልት እና ሞራል ለፌዴሬሽኑ እና ለሊግ ካምፓኒው ማቅረቡን ቦርዱ የገለፀ ሲሆን ደንቦቹ እንዲታዩ እና ሕጋዊ ወሳኔ እንዲሰጥ መጠይቁን አስታውቋል።
+
+ቡድኑ በጨዋታው የገሀድ ስህተቶች ተፈፀሙብኛል ያለ ሲሆን ከነዚህም መሀከል :- በሊግ ካምፓኒው ተቀተው ቅጣት ላይ የነበሩ ተጨዋቾች ተሰለፈው ተጫውተዋል ፤ የገባ ጎል ከጨዋታ ውጭ ነው ተብሎ ተሽሮብናል ፤ የፍፁም ቅጣት ምት ተከልክለናል እንዲሁም በተደጋጋሚ በዳኞች በደል ደርሶብናል በማለት የገለፀ ሲሆን ቦርዱም የቀረበውን መረጃ እና ማስረጃ በመከታተል ወሳኔ እንዲሰጥ ጠይቋል።
+
+እንዲሁም ኢትዮጵያ እግር ኳስ ደንብ በመጣስ ያልተገቡ ተጨዋቾች በማሰለፍ በተጨማሪም ወደማይመለከተው መደበኛ ከፍተኛ ፍርድ ቤት በመውሰድ ከተጠያቂነት ለማመለጥ ሙከራ በማድረጋቸው እና በኢትዮጵያ ዋንጫ በማጫወታቸው በህገወጥ መንገድ ዋንጫውን በመወሰዳቸው አግባብ አለመሆኑን ተረድቶ ፌዴሬሽኑ ዋንጫውን እንዲመልስ እንጠይቃለን ሲልም ክለቡ ጠይቋል።
+
+በመጨረሻም በነዚህ ጉዳዮች ላይ ፌዴሬሽኑ ውሳኔ ማይሰጥ ከሆን እስከ ዓለም አቀፍ የስፖርቱ ፍርድ ቤት እንደሚወስደው ክለቡ አሳስቧል።`,
+    category: "news",
+    featured: true,
+  },
+];
+
+export const eventsData = [
+  {
+    id: 1,
+    image: gifata3,
+    title: "Wolaita New Year (Gifaataa) Celebration",
+    date: "September 21, 2025",
+    time: "TBD",
+    location: "1500 Merrimac Dr, Hyattsville, MD",
+    type: "Cultural Festival",
+    status: "upcoming",
+    description: `The Gifaataa ceremony schedule is as follows.
+1. Commencement address by Dr. Medhin, congratulating Wolayta Dicha.
+2. Elder men's blessing for the year, led by Gash Desalegn, with wishes for the next year, emphasizing the significance of Gifaataa.
+3. Women elders explaining Wolayta cultural food, highlighting their benefits and importance.
+4. Prayers by one of the elders, followed by lunch.
+5. Post-lunch, Tibebu continues last year's trend with interviews and challenges for attendees.
+6. Balihelelle ceremony, guided by Muluken Lanka.
+7. Closure speech by Isaac Ferenj.
+8. Guests' recognition and more.`,
+    registration: "Free",
+    capacity: "Open to all",
+  },
+];
+
+// Gallery Data
+export const galleryData = [
+  // Historical Archives
+  {
+    id: 8,
+    image: course8,
+    title: "Traditional Gifata Dances",
+    category: "gifata celebration",
+    type: "video",
+    videoUrl: "https://www.youtube.com/embed/mH1g0Haf2CU",
+    description:
+      "Vibrant traditional dances performed during the Gifata celebration.",
+    date: "2025",
+    tags: ["dance", "traditional", "celebration"],
+  },
+
+  // Additional mixed content
+
+  {
+    id: 19,
+    image: team7,
+    title: "Gifata Music and Songs",
+    category: "gifata celebration",
+    type: "video",
+    videoUrl: "https://www.youtube.com/embed/cGtOeE4SVac",
+    description:
+      "Traditional songs and music performed during Gifata celebrations.",
+    date: "2025",
+    tags: ["music", "songs", "traditional"],
+  },
+
+  // New Gallery Images - Cultural Costumes (Ajora series)
+  {
+    id: 21,
+    image: ajora1,
+    title: "Traditional Ajora Attire",
+    category: "tourist sites and attractions",
+    type: "image",
+    description: "Ajora falls: located in Boloso Bombe woreda of Wolaita Zone",
+    date: "2025",
+    tags: ["ajora", "traditional", "clothing"],
+  },
+  {
+    id: 22,
+    image: ajora2,
+    title: "Ajora Cultural Dress",
+    category: "tourist sites and attractions",
+    type: "image",
+    description: "Ajora falls: located in Boloso Bombe woreda of Wolaita Zone",
+    date: "2025",
+    tags: ["ajora", "dress", "cultural"],
+  },
+  {
+    id: 23,
+    image: ajora3,
+    title: "Traditional Ajora Fashion",
+    category: "tourist sites and attractions",
+    type: "image",
+    description: "Ajora falls: located in Boloso Bombe woreda of Wolaita Zone",
+    date: "2025",
+    tags: ["ajora", "fashion", "traditional"],
+  },
+
+  // Tourist Sites and Attractions (City series)
+  {
+    id: 24,
+    image: city1,
+    title: "Wolayta Urban Landscape",
+    category: "tourist sites and attractions",
+    type: "image",
+    description: "Modern urban development in Wolayta region.",
+    date: "2025",
+    tags: ["city", "urban", "development"],
+  },
+  {
+    id: 25,
+    image: city2,
+    title: "City Center View",
+    category: "tourist sites and attractions",
+    type: "image",
+    description: "Vibrant city center showcasing local architecture.",
+    date: "2025",
+    tags: ["city", "center", "architecture"],
+  },
+  {
+    id: 26,
+    image: city3,
+    title: "Urban Community Life",
+    category: "tourist sites and attractions",
+    type: "image",
+    description: "Daily life in Wolayta urban communities.",
+    date: "2025",
+    tags: ["city", "community", "life"],
+  },
+  {
+    id: 27,
+    image: city4,
+    title: "Modern Wolayta City",
+    category: "tourist sites and attractions",
+    type: "image",
+    description: "Contemporary cityscape of Wolayta region.",
+    date: "2025",
+    tags: ["city", "modern", "cityscape"],
+  },
+  {
+    id: 28,
+    image: city5,
+    title: "Urban Cultural Hub",
+    category: "tourist sites and attractions",
+    type: "image",
+    description: "Hotels in the center of Wolayta Soddo.",
+    date: "2025",
+    tags: ["city", "cultural", "commercial"],
+  },
+
+  // Cultural Costumes (Cloth series)
+  {
+    id: 29,
+    image: cloth1,
+    title: "Traditional Textile Art",
+    category: "cultural costumes",
+    type: "image",
+    description: "Intricate traditional textile patterns and designs.",
+    date: "2025",
+    tags: ["cloth", "textile", "patterns"],
+  },
+  {
+    id: 30,
+    image: cloth2,
+    title: "Cultural Fabric Collection",
+    category: "cultural costumes",
+    type: "image",
+    description: "Beautiful collection of traditional Wolayta fabrics.",
+    date: "2025",
+    tags: ["cloth", "fabric", "collection"],
+  },
+  {
+    id: 31,
+    image: cloth3,
+    title: "Traditional Weaving",
+    category: "cultural costumes",
+    type: "image",
+    description: "Traditional weaving techniques and craftsmanship.",
+    date: "2025",
+    tags: ["cloth", "weaving", "craftsmanship"],
+  },
+  {
+    id: 32,
+    image: cloth4,
+    title: "Cultural Textile Heritage",
+    category: "cultural costumes",
+    type: "image",
+    description: "Preserved textile heritage of Wolayta culture.",
+    date: "2025",
+    tags: ["cloth", "heritage", "culture"],
+  },
+  {
+    id: 33,
+    image: cloth5,
+    title: "Traditional Garment Making",
+    category: "cultural costumes",
+    type: "image",
+    description: "Art of traditional garment creation and design.",
+    date: "2025",
+    tags: ["cloth", "garment", "design"],
+  },
+
+  // Historical Archives (Dicha series)
+  {
+    id: 34,
+    image: dicah3,
+    title: "Dicha Community Event",
+    category: "historical archives",
+    type: "image",
+    description:
+      "Mass celebrating and supporting local football club, wolaita dicha.",
+    date: "2025",
+    tags: ["dicha", "community", "event"],
+  },
+  {
+    id: 35,
+    image: dicha1,
+    title: "Dicha Cultural Celebration",
+    category: "historical archives",
+    type: "image",
+    description:
+      "Mass celebrating and supporting local football club, wolaita dicha.",
+    date: "2025",
+    tags: ["dicha", "celebration", "heritage"],
+  },
+  {
+    id: 36,
+    image: dicha2,
+    title: "Community Dicha Gathering",
+    category: "historical archives",
+    type: "image",
+    description:
+      "Mass celebrating and supporting local football club, wolaita dicha.",
+    date: "2025",
+    tags: ["dicha", "community", "traditions"],
+  },
+  {
+    id: 37,
+    image: dicha4,
+    title: "Dicha Historical Moment",
+    category: "historical archives",
+    type: "image",
+    description:
+      "Mass celebrating and supporting local football club, wolaita dicha.",
+    date: "2025",
+    tags: ["dicha", "historical", "community"],
+  },
+
+  // Tourist Sites and Attractions (Hayk series)
+  {
+    id: 38,
+    image: hayk1,
+    title: "Hayk Natural Beauty",
+    category: "tourist sites and attractions",
+    type: "image",
+    description: "Stunning nature of omo river.",
+    date: "2025",
+    tags: ["hayk", "nature", "landscape"],
+  },
+  {
+    id: 39,
+    image: hayk2,
+    title: "Hayk Scenic Views",
+    category: "tourist sites and attractions",
+    type: "image",
+    description: "Stunning nature of omo river.",
+    date: "2025",
+    tags: ["hayk", "scenic", "views"],
+  },
+  {
+    id: 40,
+    image: hayk3,
+    title: "Hayk Natural Heritage",
+    category: "tourist sites and attractions",
+    type: "image",
+    description: "Stunning nature of omo river.",
+    date: "2025",
+    tags: ["hayk", "heritage", "natural"],
+  },
+
+  // Cultural Costumes (Mochena)
+  {
+    id: 41,
+    image: mochena1,
+    title: "Traditional Mochena Attire",
+    category: "tourist sites and attractions",
+    type: "image",
+    description:
+      "Mochena Borago is a rockshelter and archaeological site situated on the western slope of Mount Damota",
+    date: "2025",
+    tags: ["mochena", "traditional", "attire"],
+  },
+
+  // Historical Sites and Artifacts (Museum series)
+  {
+    id: 42,
+    image: museum1,
+    title: "Cultural Museum Exhibit",
+    category: "historical sites and artifacts",
+    type: "image",
+    description: "Important cultural artifacts displayed in museum.",
+    date: "2025",
+    tags: ["museum", "artifacts", "cultural"],
+  },
+  {
+    id: 43,
+    image: museum2,
+    title: "Historical Museum Collection",
+    category: "historical sites and artifacts",
+    type: "image",
+    description: "Rare historical collection preserving Wolayta heritage.",
+    date: "2025",
+    tags: ["museum", "historical", "collection"],
+  },
+
+  // Tourist Sites and Attractions (View series)
+  {
+    id: 44,
+    image: view1,
+    title: "Panoramic Wolayta View",
+    category: "tourist sites and attractions",
+    type: "image",
+    description: "Stunning panoramic view of Wolayta landscape.",
+    date: "2025",
+    tags: ["view", "panoramic", "landscape"],
+  },
+  {
+    id: 45,
+    image: view2,
+    title: "Scenic Mountain View",
+    category: "tourist sites and attractions",
+    type: "image",
+    description: "Beautiful mountain views in Wolayta region.",
+    date: "2025",
+    tags: ["view", "mountain", "scenic"],
+  },
+  {
+    id: 46,
+    image: view3,
+    title: "Natural Valley View",
+    category: "tourist sites and attractions",
+    type: "image",
+    description: "valley views showcasing natural beauty.",
+    date: "2025",
+    tags: ["view", "valley", "natural"],
+  },
+  {
+    id: 47,
+    image: view4,
+    title: "Landscape View",
+    category: "tourist sites and attractions",
+    type: "image",
+    description: "landscape blending with nature.",
+    date: "2025",
+    tags: ["view", "cultural", "landscape"],
+  },
 ];
