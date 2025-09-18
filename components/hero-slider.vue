@@ -140,7 +140,7 @@
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import { Autoplay } from 'swiper/modules';
 
-import heroBg3 from '@/assets/images/gallery/ajora1.jpeg'
-import heroBg2 from '@/assets/images/gallery/ajora3.jpeg'
-import heroBg1 from '@/assets/images/gallery/view3.jpeg'
+import heroBg1 from '@/assets/images/gallery/ajora1.jpeg'
+import heroBg2 from '@/assets/images/gallery/view2.jpeg'
+import heroBg3 from '@/assets/images/gifata3.jpeg'
 </script>

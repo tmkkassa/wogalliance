@@ -75,8 +75,8 @@
 
                         <div class="content mt-4">
                             <h5 class="text-lg font-semibold">Phone</h5>
-                            <p class="text-slate-400 mt-3">The phrasal sequence of the is now so that many campaign and
-                                benefit</p>
+                            <p class="text-slate-400 mt-3">Get in touch with us directly for immediate assistance and
+                                support</p>
 
                             <div class="mt-4">
                                 <a href="tel:+12408148335"
@@ -93,8 +93,8 @@
 
                         <div class="content mt-4">
                             <h5 class="text-lg font-semibold">Email</h5>
-                            <p class="text-slate-400 mt-3">The phrasal sequence of the is now so that many campaign and
-                                benefit</p>
+                            <p class="text-slate-400 mt-3">Get in touch with us directly for immediate assistance and
+                                support</p>
 
                             <div class="mt-4">
                                 <a href="mailto:contact@wogalliance.com"

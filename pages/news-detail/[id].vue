@@ -153,26 +153,26 @@
                         <!-- Share Section -->
                         <div class="p-6 rounded-xl shadow dark:shadow-gray-800 mt-6 bg-white dark:bg-slate-900">
                             <h5 class="text-lg font-semibold mb-4">Share this article:</h5>
-                            <div class="flex space-x-4">
-                                <button
+                            <div class="flex flex-wrap gap-4">
+                                <button @click="shareOnFacebook"
                                     class="flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300">
                                     <i data-feather="facebook" class="size-4 mr-2"></i>
                                     Facebook
                                 </button>
-                                <button
+                                <button @click="shareOnTwitter"
                                     class="flex items-center px-4 py-2 bg-blue-400 text-white rounded-lg hover:bg-blue-500 transition-colors duration-300">
                                     <i data-feather="twitter" class="size-4 mr-2"></i>
                                     Twitter
                                 </button>
-                                <button
+                                <button @click="shareOnLinkedIn"
                                     class="flex items-center px-4 py-2 bg-blue-700 text-white rounded-lg hover:bg-blue-800 transition-colors duration-300">
                                     <i data-feather="linkedin" class="size-4 mr-2"></i>
                                     LinkedIn
                                 </button>
-                                <button
+                                <button @click="copyToClipboard"
                                     class="flex items-center px-4 py-2 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition-colors duration-300">
                                     <i data-feather="link" class="size-4 mr-2"></i>
-                                    Copy Link
+                                    {{ copyButtonText }}
                                 </button>
                             </div>
                         </div>
@@ -275,6 +275,9 @@ const route = useRoute()
 
 const data = newsData.find((item) => item.id === parseInt(route.params.id))
 
+// Copy button text state
+const copyButtonText = ref('Copy Link')
+
 // Recent news (excluding current article)
 const recentNews = computed(() =>
     newsData.filter(item => item.id !== parseInt(route.params.id)).slice(0, 4)
@@ -297,6 +300,52 @@ const categories = [
     'Integration',
     'Partnership'
 ]
+
+// Share functions
+const shareOnFacebook = () => {
+    const url = encodeURIComponent(window.location.href)
+    const title = encodeURIComponent(data?.title || 'WoGA News Update')
+    const shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}&quote=${title}`
+    window.open(shareUrl, '_blank', 'width=600,height=400')
+}
+
+const shareOnTwitter = () => {
+    const url = encodeURIComponent(window.location.href)
+    const title = encodeURIComponent(data?.title || 'WoGA News Update')
+    const text = encodeURIComponent(`Check out this news from WoGA: ${title}`)
+    const shareUrl = `https://twitter.com/intent/tweet?url=${url}&text=${text}`
+    window.open(shareUrl, '_blank', 'width=600,height=400')
+}
+
+const shareOnLinkedIn = () => {
+    const url = encodeURIComponent(window.location.href)
+    const title = encodeURIComponent(data?.title || 'WoGA News Update')
+    const summary = encodeURIComponent(data?.excerpt || 'Stay updated with the latest news from Wolayta Global Alliance.')
+    const shareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${url}&title=${title}&summary=${summary}`
+    window.open(shareUrl, '_blank', 'width=600,height=400')
+}
+
+const copyToClipboard = async () => {
+    try {
+        await navigator.clipboard.writeText(window.location.href)
+        copyButtonText.value = 'Copied!'
+        setTimeout(() => {
+            copyButtonText.value = 'Copy Link'
+        }, 2000)
+    } catch (err) {
+        // Fallback for older browsers
+        const textArea = document.createElement('textarea')
+        textArea.value = window.location.href
+        document.body.appendChild(textArea)
+        textArea.select()
+        document.execCommand('copy')
+        document.body.removeChild(textArea)
+        copyButtonText.value = 'Copied!'
+        setTimeout(() => {
+            copyButtonText.value = 'Copy Link'
+        }, 2000)
+    }
+}
 
 // SEO
 useHead({
