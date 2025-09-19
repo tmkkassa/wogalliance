@@ -439,24 +439,25 @@ export const categories = [
     title: "Deep Learning",
   },
 ];
+
 export const counterData = [
   {
-    value: 1548,
+    value: 500,
     symbol: "+",
     title: "Community Members",
   },
   {
-    value: 12,
+    value: 5,
     symbol: "+",
     title: "Countries Reached",
   },
   {
-    value: 50,
+    value: 10,
     symbol: "+",
     title: "Cultural Events",
   },
   {
-    value: 100,
+    value: 25,
     symbol: "+",
     title: "Humanitarian Supports",
   },

@@ -105,7 +105,7 @@
                             <div class="text-center">
                                 <h1
                                     class="font-bold text-white lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5">
-                                    Connecting Wolayta, <br> Across Borders and Generations
+                                    Connecting Wolayta, <br> across Borders and Generations
                                 </h1>
                                 <p class="text-white/70 text-lg max-w-xl mx-auto">
                                     From the DMV to Ethiopia and beyond, we strengthen cultural ties, provide community

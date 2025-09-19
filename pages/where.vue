@@ -227,6 +227,41 @@
             </div>
         </section>
 
+        <!-- Five Year Target Section -->
+        <section class="relative lg:py-24 py-16">
+            <div class="container relative">
+                <div class="grid grid-cols-1 text-center">
+                    <h3 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Five Year
+                        Target</h3>
+                    <p class="text-slate-400 max-w-xl mx-auto mb-12">Our ambitious goals for the next five years to
+                        expand our impact and reach</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div
+                        class="text-center p-6 bg-white dark:bg-slate-800 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                        <div class="text-4xl font-bold text-primary mb-2">500+</div>
+                        <div class="text-gray-600 dark:text-gray-300">Community Members</div>
+                    </div>
+                    <div
+                        class="text-center p-6 bg-white dark:bg-slate-800 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                        <div class="text-4xl font-bold text-blue-400 mb-2">5+</div>
+                        <div class="text-gray-600 dark:text-gray-300">Countries</div>
+                    </div>
+                    <div
+                        class="text-center p-6 bg-white dark:bg-slate-800 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                        <div class="text-4xl font-bold text-primary mb-2">10+</div>
+                        <div class="text-gray-600 dark:text-gray-300">Cultural Events</div>
+                    </div>
+                    <div
+                        class="text-center p-6 bg-white dark:bg-slate-800 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                        <div class="text-4xl font-bold text-blue-400 mb-2">25+</div>
+                        <div class="text-gray-600 dark:text-gray-300">Humanitarian Support</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <Footer />
 
         <Switcher />

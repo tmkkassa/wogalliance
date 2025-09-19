@@ -53,9 +53,15 @@
             </div> -->
         </section>
 
+        <div class="grid grid-cols-1 text-center">
+            <h3 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Five Year Target</h3>
+            <p class="text-slate-400 max-w-xl mx-auto mb-12">Our ambitious goals for the next five years to expand our
+                impact and reach</p>
+        </div>
         <ClientOnly>
             <CtaOne />
         </ClientOnly>
+
 
         <section class="relative lg:py-24 py-16">
             <!-- <div class="container relative">
